@@ -1,4 +1,4 @@
-class RPS
+class GameEngine
   attr_accessor :player, :computer
 
   def initialize
