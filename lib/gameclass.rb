@@ -23,15 +23,17 @@ class Game
   end
 
   def win
-    
+    player.score += 1
+    "Congratulations! You won!"
   end
 
   def lose
-
+    computer.score += 1
+    "Sorry, you lost. Better luck next time."
   end
 
   def draw
-
+    "It's a tie!"
   end
 
 end
