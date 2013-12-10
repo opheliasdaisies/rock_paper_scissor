@@ -9,7 +9,7 @@ class Player
   end
 
   def rand_move
-    move = @moves[rand(0..2)]
+    self.move = @moves[rand(0..2)]
   end
 
 end
