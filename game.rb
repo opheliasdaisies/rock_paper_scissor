@@ -1,4 +1,6 @@
 require "bundler"
+require "./lib/gameclass"
+require "./lib/player"
 Bundler.require
 
 module Game
