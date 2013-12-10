@@ -9,16 +9,16 @@ class GameEngine
   def win_or_lose
     case player.move
       when computer.move
-        return draw
+        draw
       when "rock"
-        return win if computer.move == "scissor"
-        return lose if computer.move == "paper"
+        win if computer.move == "scissor"
+        lose if computer.move == "paper"
       when "paper"
-        return win if computer.move == "rock"
-        return lose if computer.move == "scissor"
+        win if computer.move == "rock"
+        lose if computer.move == "scissor"
       when "scissor"
-        return win if computer.move == "paper"
-        return lose if computer.move == "rock"
+        win if computer.move == "paper"
+        lose if computer.move == "rock"
       end
   end
 
