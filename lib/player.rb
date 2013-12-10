@@ -9,7 +9,7 @@ class Player
   end
 
   def rand_move
-    @moves[rand(1..3)]
+    move = @moves[rand(1..3)]
   end
 
 end
